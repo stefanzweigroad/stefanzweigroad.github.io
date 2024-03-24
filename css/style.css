@@ -1,0 +1,138 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+.scroll-section {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    display: flex;
+    opacity: 0;
+    transform: translateY(20%); /* 초기 상태에서 아래로 조금 이동 */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* 부드러운 페이드 인 및 위로 이동 효과 */
+    
+}
+
+
+.scroll-section.visible {
+    opacity: 1;
+    transform: translateY(0); /* 최종 상태에서 원래 위치로 */
+}
+ 
+
+
+.container { 
+    color: #000000; 
+    text-align: center; 
+} 
+
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.my_bg {
+  background-image: url("../img/bg1.png");    
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 3px 4px 5px #000000;
+  position: relative;  
+}
+.top_main {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+.top_sub {
+   font-family: "Nanum Myeongjo", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+.heading_title {
+
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 19px;
+  color: #2f4f4f;
+    text-align: center; 
+    margin-top: 30px;
+    display: block;
+}
+.section2 {
+  line-height: 2.5vh;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #2f4f4f;
+    text-align: center; 
+    display: block;
+}
+.map {
+  position: relative;
+    text-align: center; 
+}
+.map_top {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    text-align: center; 
+}
+
+.borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('../img/border.png') 20% round;
+}
+
+.calendar {
+  background-image: url("../img/weddingcal.png");    
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 3px 4px 5px #000000;
+  position: relative;  
+
+}
+
+.flower1{
+  background-image: url("../img/flower1.png");
+  background-repeat: no-repeat;  
+  background-position: center;
+}
+
+.flower2{
+  background-image: url("../img/flower2.png");
+  background-repeat: no-repeat;  
+  background-position: center;
+}
