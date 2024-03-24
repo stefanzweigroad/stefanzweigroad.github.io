@@ -48,7 +48,7 @@ body, html {
 }
 
 .my_bg {
-  background-image: url("../img/bg.png");    
+  background-image: url("../img/bg1.png");    
   background-size: cover;
   color: #ffffff;
   text-shadow: 3px 4px 5px #000000;
@@ -88,14 +88,16 @@ body, html {
     display: block;
 }
 .section2 {
-  line-height: 2.5vh;
+  line-height: 2.7vh;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 17px;
   color: #2f4f4f;
     text-align: center; 
     display: block;
+    margin-top: 150px;
+    margin-bottom: 150px;;
 }
 .map {
   position: relative;
