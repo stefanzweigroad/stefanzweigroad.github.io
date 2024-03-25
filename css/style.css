@@ -24,11 +24,19 @@ body, html {
 }
  
 
+.container {
+  font-family: arial;
+  font-size: 24px;
+  width: 100%;
+  /* 자식 요소(.child)를 중앙 정렬하기 */
+  display: flex;
+  justify-content: center;
+}
 
-.container { 
-    color: #000000; 
-    text-align: center; 
-} 
+.child {
+  width: 640px;
+  background-color: #9ec6f7;
+}
 
 .nanum-myeongjo-regular {
     font-family: "Nanum Myeongjo", serif;
