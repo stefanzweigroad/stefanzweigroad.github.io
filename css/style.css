@@ -56,8 +56,9 @@ body, html {
 }
 
 .my_bg {
-  background-image: url("../img/bg3.png");    
+  background: url("../img/bg3.png") no-repeat center;    
   background-size: cover;
+  height: 100vh;
   color: #ffffff;
   text-shadow: 3px 4px 5px #000000;
   position: relative;  
@@ -121,8 +122,8 @@ body, html {
 }
 
 .borderimg2 {
-  border: 10px solid transparent;
-  padding: 15px;
+  border: 20px solid transparent;
+  padding: 0px;
   border-image: url('../img/border.png') 20% round;
 }
 
@@ -133,6 +134,7 @@ body, html {
   color: #ffffff;
   text-shadow: 3px 4px 5px #000000;
   position: relative;  
+  
 
 }
 
