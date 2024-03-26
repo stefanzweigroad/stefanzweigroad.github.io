@@ -20,8 +20,8 @@
       </script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Noto+Serif+KR:wght@400;600;900&display=swap" rel="stylesheet">
 
       
     <title>진욱 ❤️ 지선</title>
@@ -114,7 +114,7 @@
     <div class="child" style="margin-top: 100px; text-align: center; ">
       
       <div class="calendar" style="max-width: 640px; height : 60vh; overflow : hidden;">
-        <div class="top_sub" style="background-color: rgba(116, 117, 118, 0.6); position: absolute; left: 100px; top: 170px;padding: 10px; border-radius:30px; ">
+        <div class="top_sub" style="background-color: rgba(25, 169, 0, 0.7); position: absolute; left: 100px; top: 170px;padding: 10px; border-radius:30px; ">
           2024. 09. 01 (일)<br /> 오전 11:00 AM
         </div>
       </div>
@@ -125,7 +125,7 @@
 <!-- 지도 섹션-->
 <div class="container">
   <div class="child">
-    <div style="background-color:rgba(255, 255, 255, 0.532); padding-top: 10px; padding-bottom: 10px;">
+    <div style="background-color:rgba(217, 217, 217, 0.532); padding-top: 1px; padding-bottom: 1px;">
       <div class="flower2" style="height : 12vh;""></div>
     <div class="sm:text-center heading_title">
       오시는 길
@@ -135,21 +135,43 @@
 
     <!-- * 카카오맵 - 지도퍼가기 -->
     <!-- 1. 지도 노드 -->
-    <div style="background-color: #fff; border-radius: 20px;">
-      <div id="daumRoughmapContainer1710316010775" class="mx-auto root_daum_roughmap root_daum_roughmap_landing" style="width:100%; padding-top: 10px; border-radius: 20px;">
+    <div style="background-color: rgba(217, 217, 217, 0.532); border-radius: 20px;;">
+      <div id="daumRoughmapContainer1710316010775" class="mx-auto root_daum_roughmap root_daum_roughmap_landing" style="width:100%; padding-top: 5px; border-radius: 20px;">
       </div>
       <div style="font-family: 'Nanum Myeongjo', serif;
-          font-weight: 600;
           font-style: normal;
           font-size: 19px;
           color: #2f4f4f;
           text-align: center; 
           margin-top: 20px;
-          margin-bottom: 100px;
+          margin-bottom: 30px;
           display: block;">
-        서울대학교 호암교수회관 무궁화홀 <br />
+        <span style="font-weight: 900">호암교수회관 무궁화홀</span>  <br />
         <span style="font-size: 15px;">주소: 서울시 관악구 관악로1 서울대학교 호암교수회관</span>
      </div>
+     <div style="font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-size: 13px;
+    color: #2f4f4f;
+    text-align: justify; 
+    margin-bottom: 100px;
+    display: block;">
+      <div style="line-height: 25px; padding-left: 20px; padding-right: 20px; padding-bottom: 30px">
+        <span style="font-weight: 600; padding-left: 10px; font-size: 15px;" >지하철</span> <br />
+        <span style="font-weight: 400;" >
+        2호선 낙성대역(4번출구) → GS주유소 → [장블랑제리]제과점 앞에서 마을버스 [관악-02번] 승차 → 호암교수회관 하차(5분거리) </span>
+        <br /><br />
+        <span style="font-weight: 600;  padding-left: 20px; padding-right: 20px; font-size: 15px;">버스</span> <br />
+        461, 641, 643, 5413, 5424, 5520, 5524, 5528 이용 낙성대하차 → GS주유소 → [장블랑제리]제과점 앞에서 마을버스 02번 승차 → 호암교수회관 하차(5분거리)
+        <br /><br />
+        <span style="font-weight: 600;  padding-left: 20px; padding-right: 20px; font-size: 15px;">승용차</span> <br />
+        4남부순환도로에서 낙성대(이정표:서울대후문) 방면으로 좌.우회전 하여 1.5km 직진하여 좌측 위치
+        내비게이션 이용시 입력주소 : 서울시 관악구 관악로 1
+        <br /><br />
+        <span style="font-weight: 600;  padding-left: 20px; padding-right: 20px; font-size: 15px;">지방에서 오시는 분</span> <br />
+        경부고속도로를 이용해서 서초IC에서 사당방면으로 P턴 → 남부순환로 이용하여 낙성대(이정표: 서울대 후문) 방면으로 좌회전하여 1.5km 직진하여 좌측 위치
+        </div>
+    </div>
     </div>
     <!--
       2. 설치 스크립트
@@ -168,31 +190,7 @@
       }).render();
     </script>
 
-    <div style="font-family: 'Noto Serif KR', serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 15px;
-    color: #2f4f4f;
-    text-align: justify; 
-    margin-top: 20px;
-    margin-bottom: 100px;
-    display: block;">
-      <div style="margin-top: 50px; line-height: 30px; padding-left: 20px; padding-right: 20px">
-        <span style="font-weight: 800; padding-left: 10px; font-size: 18px;" >지하철</span> <br />
-        <span style="font-weight: 400;" >
-        2호선 낙성대역(4번출구) → GS주유소 → [장블랑제리]제과점 앞에서 마을버스 [관악-02번] 승차 → 호암교수회관 하차(5분거리) </span>
-        <br /><br />
-        <span style="font-weight: 800;  padding-left: 20px; padding-right: 20px; font-size: 18px;">버스</span> <br />
-        461, 641, 643, 5413, 5424, 5520, 5524, 5528 이용 낙성대하차 → GS주유소 → [장블랑제리]제과점 앞에서 마을버스 02번 승차 → 호암교수회관 하차(5분거리)
-        <br /><br />
-        <span style="font-weight: 800;  padding-left: 20px; padding-right: 20px; font-size: 18px;">승용차</span> <br />
-        4남부순환도로에서 낙성대(이정표:서울대후문) 방면으로 좌.우회전 하여 1.5km 직진하여 좌측 위치
-        내비게이션 이용시 입력주소 : 서울시 관악구 관악로 1
-        <br /><br />
-        <span style="font-weight: 800;  padding-left: 20px; padding-right: 20px; font-size: 18px;">지방에서 오시는 분</span> <br />
-        경부고속도로를 이용해서 서초IC에서 사당방면으로 P턴 → 남부순환로 이용하여 낙성대(이정표: 서울대 후문) 방면으로 좌회전하여 1.5km 직진하여 좌측 위치
-        </div>
-    </div>
+    
   </div>
 </div>
 
