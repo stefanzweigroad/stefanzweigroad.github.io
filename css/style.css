@@ -159,3 +159,49 @@ body, html {
   background-repeat: no-repeat;  
   background-position: center;
 }
+.faq_question {
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-size: 17px;
+  color: #2f4f4f;
+  font-weight: 800;
+  text-align: left; 
+  margin-top: 25px;
+  margin-bottom: 1px;
+  display: block;
+}
+.faq_right {
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-size: 13px;
+  color: #2f4f4f;
+  text-align: justify; 
+  display: block;
+  height:150px; 
+  padding-top: 20px; 
+  padding-left: 20px; 
+  padding-right: 160px;
+  margin: 10px;
+  background-size: 150px auto; 
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: rgba(68, 251, 172, 0.532); border-radius: 20px;
+}
+
+.faq_left {
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-size: 13px;
+  color: #2f4f4f;
+  text-align: justify; 
+  display: block;
+  height:150px; 
+  padding-top: 20px; 
+  padding-left: 160px; 
+  padding-right: 20px;
+  margin: 10px;
+  background-size: 150px auto; 
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: rgba(253, 189, 255, 0.532); border-radius: 20px;
+}
