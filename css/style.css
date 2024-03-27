@@ -147,12 +147,15 @@ body, html {
 
 .flower1{
   background-image: url("../img/flower1.png");
+
+  background-size: contain;
   background-repeat: no-repeat;  
   background-position: center;
 }
 
 .flower2{
   background-image: url("../img/flower2.png");
+  background-size: contain;
   background-repeat: no-repeat;  
   background-position: center;
 }
