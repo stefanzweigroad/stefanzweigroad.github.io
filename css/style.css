@@ -63,8 +63,9 @@ body, html {
 
 
 .my_bg {
-  background: url("../img/bg3.png") no-repeat center;    
+  background-position: center;    
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   color: #ffffff;
   text-shadow: 3px 4px 5px #000000;

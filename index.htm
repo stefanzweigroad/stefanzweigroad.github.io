@@ -33,7 +33,7 @@
 <div class="container">
   <div class="child">
 
-    <div class="my_bg sm:text-center" style="overflow : hidden;">
+    <div id="frontdiv" class="my_bg sm:text-center" style="overflow : hidden;">
       <section class="scroll-section" id="section2" style="height : 100vh;"> 
         <div class="mx-auto" style="margin: 0 auto;"> 
           
@@ -52,6 +52,22 @@
   </div>
 </div>
 <!-- 첫화면 섹션-->
+<script>
+  const images = [
+    "bg2.png","bg3.png","bg4.png","bg1.png","bg.png"
+];
+
+//random으로 이미지 나타내기
+const chosenImage = images[Math.floor(Math.random() * images.length)];
+
+
+// 배경 이미지 넣는 형식 url('img주소')
+const bgImage = `url(img/${chosenImage})`;
+
+// body에 추가
+var divbg = document.getElementById('frontdiv');
+divbg.style.backgroundImage = bgImage;
+</script>
 
 <!-- 시 섹션 -->
 <div class="container">
