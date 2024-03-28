@@ -160,6 +160,13 @@ body, html {
   background-repeat: no-repeat;  
   background-position: center;
 }
+.flower3{
+  background-image: url("../img/flower3.png");
+  background-size: contain;
+  background-repeat: no-repeat;  
+  background-position: center;
+}
+
 .faq_question {
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
