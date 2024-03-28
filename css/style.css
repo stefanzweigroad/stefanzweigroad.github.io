@@ -171,6 +171,23 @@ body, html {
   margin-bottom: 1px;
   display: block;
 }
+.faq {
+  font-family: 'Noto Serif KR', serif;
+  font-style: normal;
+  font-size: 13px;
+  color: #2f4f4f;
+  text-align: justify; 
+  display: block;
+  height:150px; 
+  padding-top: 0px; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  margin: 10px;
+  background-size: 200px auto; 
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-color: rgba(253, 189, 255, 0.532); border-radius: 20px;
+}
 .faq_right {
   font-family: 'Noto Serif KR', serif;
   font-style: normal;
@@ -204,5 +221,5 @@ body, html {
   background-size: 150px auto; 
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-color: rgba(253, 189, 255, 0.532); border-radius: 20px;
+  background-color: rgba(251, 166, 18, 0.5); border-radius: 20px;
 }
