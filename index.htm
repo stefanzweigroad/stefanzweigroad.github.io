@@ -248,8 +248,11 @@ divbg.style.backgroundImage = bgImage;
 <section class="scroll-section" id="section12"> 
 <div class="gallery">
   <div class="galleryimages">
+    <div id="lightbox">
+      <img src="./img/gallery/01.png" alt="" id="lightboxImage">
+    </div>
     <div class="imageFlex1">
-      <img src="./img/gallery/01.png">
+      <img src="./img/gallery/01.png" data-src="./img/gallery/01.png" class="pic">
       <img src="./img/gallery/02.png">
       <img src="./img/gallery/03.png">
       <img src="./img/gallery/04.png">
@@ -284,6 +287,29 @@ divbg.style.backgroundImage = bgImage;
   </div>
 </div>
 </section>
+<script>
+  console.time('test');
+
+  let clickImgs = document.querySelectorAll('.pic');
+  let lightbox = document.querySelector('#lightbox');
+  let lightboxImage = document.querySelector('#lightboxImage');
+  let myAry = Array.from(clickImgs);
+
+  const result = myAry.map(function (item) {
+    item.addEventListener('click', () => {
+      let imgData = item.getAttribute("data-src");
+      lightboxImage.setAttribute("src", imgData);
+      lightbox.style.display = "block";
+    })
+  });
+
+
+  lightboxImage.addEventListener('click', () => {
+    lightbox.style.display = "none";
+  });
+
+  console.timeEnd('test');
+</script>
 <!-- -->  
 <section class="scroll-section" id="section12"> 
 <div class="container">
